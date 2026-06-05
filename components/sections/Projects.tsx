@@ -170,19 +170,13 @@ function ProjectCard({
           {project.title[0]}
         </span>
 
-        {/* Category + year badges */}
+        {/* Category badge */}
         <div className="relative z-10 flex items-center gap-2">
           <span
             className="text-[10px] font-mono tracking-widest uppercase px-2.5 py-1 rounded-md"
             style={{ background: "rgba(0,0,0,0.4)", color: acc.text }}
           >
             {project.category}
-          </span>
-          <span
-            className="text-[10px] font-mono"
-            style={{ color: "rgba(255,255,255,0.25)" }}
-          >
-            {project.year}
           </span>
         </div>
       </div>
