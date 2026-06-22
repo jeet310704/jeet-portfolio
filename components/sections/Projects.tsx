@@ -12,6 +12,9 @@ const cardAccent: Record<string, { from: string; to: string; text: string }> = {
   "muscle-metrics":  { from: "rgba(79,70,229,0.18)",  to: "rgba(109,40,217,0.05)",  text: "rgba(139,92,246,0.7)" },
   "alvyto":          { from: "rgba(6,182,212,0.15)",   to: "rgba(59,130,246,0.05)", text: "rgba(96,165,250,0.7)" },
   "ai-dashboard":    { from: "rgba(236,72,153,0.15)",  to: "rgba(139,92,246,0.05)", text: "rgba(167,139,250,0.7)" },
+  "hr-management":   { from: "rgba(16,185,129,0.18)",  to: "rgba(20,184,166,0.05)", text: "rgba(52,211,153,0.7)" },
+  "sales-analytics": { from: "rgba(249,115,22,0.18)",  to: "rgba(245,158,11,0.05)", text: "rgba(251,146,60,0.7)" },
+  "customer-churn":  { from: "rgba(244,63,94,0.18)",   to: "rgba(239,68,68,0.05)",  text: "rgba(251,113,133,0.7)" },
 };
 
 function Modal({ project, onClose }: { project: Project; onClose: () => void }) {

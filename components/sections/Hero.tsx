@@ -60,7 +60,7 @@ export function Hero() {
           className="font-medium leading-snug mb-8"
           style={{ fontSize: "clamp(1.25rem, 3.5vw, 2rem)", color: "#A1A1AA", letterSpacing: "-0.015em" }}
         >
-          AI/ML Engineer &amp;<br />Full Stack Developer
+          Full-Stack Developer &amp;<br />Data Analyst
         </motion.p>
 
         {/* Description */}
@@ -71,8 +71,8 @@ export function Hero() {
           className="text-base leading-relaxed mb-10 max-w-lg"
           style={{ color: "#71717A" }}
         >
-          B.Tech Computer Science graduate building intelligent products powered
-          by AI, automation, and modern web technologies. Currently an AI/ML
+          B.Tech Computer Science graduate building web apps and data solutions —
+          from React frontends to Python analytics pipelines. Currently an AI/ML
           Intern at ConcatString.
         </motion.p>
 

@@ -4,7 +4,7 @@ import { Skills } from "@/components/sections/Skills";
 
 export const metadata = {
   title: "About — Jeet Patel",
-  description: "Background, education, skills, and career goals of Jeet Patel, AI/ML Engineer & Full Stack Developer.",
+  description: "Background, education, skills, and career goals of Jeet Patel, Full-Stack Developer & Data Analyst.",
 };
 
 export default function AboutPage() {

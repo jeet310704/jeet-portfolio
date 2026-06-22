@@ -16,26 +16,26 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Jeet Patel — AI/ML Engineer & Full Stack Developer",
+  title: "Jeet Patel — Full-Stack Developer & Data Analyst",
   description:
-    "Portfolio of Jeet Patel — B.Tech CS graduate from Indus University building intelligent products with AI, automation, and modern web technologies.",
+    "Portfolio of Jeet Patel — B.Tech CS graduate from Indus University building web apps and data solutions with Python, SQL, React, and AI.",
   keywords: [
-    "Jeet Patel", "AI Engineer", "ML Engineer", "Full Stack Developer",
-    "Next.js", "React", "Python", "FastAPI", "Machine Learning", "Portfolio",
+    "Jeet Patel", "Full Stack Developer", "Data Analyst", "Data Analytics",
+    "Next.js", "React", "Python", "SQL", "Power BI", "Machine Learning", "Portfolio",
   ],
   authors: [{ name: "Jeet Patel", url: "https://github.com/jeet310704" }],
   creator: "Jeet Patel",
   openGraph: {
     type: "website",
     locale: "en_US",
-    title: "Jeet Patel — AI/ML Engineer & Full Stack Developer",
-    description: "Building intelligent products powered by AI, data, and modern web technologies.",
+    title: "Jeet Patel — Full-Stack Developer & Data Analyst",
+    description: "Building web apps and data solutions — from React frontends to Python analytics pipelines.",
     siteName: "Jeet Patel Portfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Jeet Patel — AI/ML Engineer & Full Stack Developer",
-    description: "Building intelligent products powered by AI, data, and modern web technologies.",
+    title: "Jeet Patel — Full-Stack Developer & Data Analyst",
+    description: "Building web apps and data solutions — from React frontends to Python analytics pipelines.",
   },
   robots: { index: true, follow: true, googleBot: { index: true, follow: true } },
 };

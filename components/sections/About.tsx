@@ -50,24 +50,26 @@ export function About() {
                 letterSpacing: "-0.025em",
               }}
             >
-              Building at the intersection of AI and product.
+              Building products and making sense of data.
             </motion.h2>
 
             <motion.p variants={fadeUp} className="text-base leading-relaxed" style={{ color: "#A1A1AA" }}>
-              I&apos;m a Computer Science Engineering graduate from Indus University with a passion
-              for AI, machine learning, and full-stack development. I build products that solve
-              real problems — combining intelligent systems with thoughtful user experiences.
+              I&apos;m a Computer Science Engineering graduate from Indus University. I build
+              full-stack web applications and I&apos;m actively deepening my skills in data
+              analytics — working with Python, SQL, and Power BI to explore data, find patterns,
+              and turn numbers into decisions.
             </motion.p>
 
             <motion.p variants={fadeUp} className="text-base leading-relaxed" style={{ color: "#71717A" }}>
-              Currently working as an AI/ML Intern at ConcatString, where I work on document
-              automation and data transformation pipelines. I&apos;m actively looking for
-              full-time roles in AI/ML and full-stack engineering.
+              Currently interning at ConcatString where I build AI-driven automation tools.
+              Outside of that I&apos;m hands-on with data projects — sales pipelines, churn
+              prediction models, and BI dashboards. I&apos;m looking for roles in full-stack
+              development or data analytics (or both).
             </motion.p>
 
             {/* Trait chips */}
             <motion.div variants={fadeUp} className="flex flex-wrap gap-2 pt-2">
-              {["AI-First Mindset", "Full Stack Engineering", "Product Thinking", "Fast Learner"].map(
+              {["Full Stack Dev", "Data Analytics", "Python & SQL", "Fast Learner"].map(
                 (t) => (
                   <span
                     key={t}
@@ -86,7 +88,7 @@ export function About() {
 
             <motion.div variants={fadeUp} className="flex items-center gap-1.5 pt-1">
               <span className="text-sm" style={{ color: "#52525B" }}>
-                📍 Ahmedabad, Gujarat, India — open to remote &amp; relocation
+                📍 Ahmedabad, Gujarat, India — open to remote
               </span>
             </motion.div>
           </motion.div>
@@ -147,9 +149,9 @@ export function About() {
             {/* Stats */}
             <motion.div variants={fadeUp} className="grid grid-cols-2 gap-3">
               {[
-                { v: "5+", l: "Projects" },
-                { v: "3", l: "Internships" },
-                { v: "15+", l: "Technologies" },
+                { v: "6+", l: "Projects" },
+                { v: "2", l: "Internships" },
+                { v: "18+", l: "Technologies" },
                 { v: "8.79", l: "CGPA" },
               ].map((s) => (
                 <div

@@ -2,7 +2,7 @@ import { Experience } from "@/components/sections/Experience";
 
 export const metadata = {
   title: "Experience — Jeet Patel",
-  description: "Work experience and internships of Jeet Patel, including ConcatString, Silver Touch Technologies, and Nympix Technologies.",
+  description: "Work experience and internships of Jeet Patel, including ConcatString and Silver Touch Technologies.",
 };
 
 export default function ExperiencePage() {
